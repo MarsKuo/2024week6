@@ -1,11 +1,17 @@
 .banner-title {
   position: absolute;
-  bottom: 0;
-  transform: translateY(-50%);
+  bottom: 48px;
+  transform: translateX(-50%);
+  width: 100%;
+  left: 50%;
   text-align: center;
   @include media-breakpoint-up(lg) {
     top: 50%;
-    bottom: auto;
+    left: 0;
+    bottom: 0;
+    // bottom: auto;
+    text-align: start;
+    transform: translateX(0%);
   }
 }
 .topic {
