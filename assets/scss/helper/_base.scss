@@ -1,0 +1,29 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: 'Noto Serif TC';
+}
+a {
+  color: inherit;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 0.1em;
+}
+
+p {
+  letter-spacing: 0.05em;
+  margin-bottom: 0;
+}
+li{
+  list-style: none;
+}
